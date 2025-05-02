@@ -95,7 +95,7 @@ const Clientes: React.FC = () => {
                   <SelectValue placeholder="Origem" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">Todas origens</SelectItem>
+                  <SelectItem value="todas">Todas origens</SelectItem>
                   <SelectItem value="Instagram">Instagram</SelectItem>
                   <SelectItem value="Google">Google</SelectItem>
                   <SelectItem value="Indicação">Indicação</SelectItem>
